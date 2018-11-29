@@ -1,4 +1,4 @@
 
-# AZ-100-MicrosoftAzureInfrastructureDeployment
+# AZ-101-MicrosoftAzureIntegrationandSecurity
 
 **Coming soon**
