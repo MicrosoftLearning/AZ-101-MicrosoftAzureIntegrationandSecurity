@@ -3,7 +3,7 @@
 
 *	We are publishing the lab instructions and lab files on GitHub to allow for interaction between the course authors and MCTs. We hope this will help  keep the content current as the Azure platform changes.
 
-*	There is a GitHub repository for the AZ-100, Microsoft Azure Infrastructure Deployment , and AZ-101, Microsoft Azure Integration and Security, courses. Within each repository each course has a separate folder. For example, AZ-100.2-ImplementAndManageStorage. 
+*	There is a GitHub repository for the AZ-100, Microsoft Azure Infrastructure Deployment , and AZ-101, Microsoft Azure Integration and Security, courses. 
 
 *	You can access the repositories at https://github.com/orgs/MicrosoftLearning/dashboard
 
