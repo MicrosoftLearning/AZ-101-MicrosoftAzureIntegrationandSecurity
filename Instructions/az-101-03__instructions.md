@@ -598,7 +598,7 @@ The main tasks for this exercise are as follows:
 
 1. From the **Create Traffic Manager profile** blade, create a new Azure Traffic Manager profile with the following settings:
 
-    - Name: **az1010303-tm**
+    - Name: a globally unique name in the trafficmanager.net DNS namespace
 
     - Routing method: **Weighted**
 
