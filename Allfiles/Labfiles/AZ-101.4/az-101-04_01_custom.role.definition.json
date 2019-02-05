@@ -1,0 +1,16 @@
+{
+   "Name": "Virtual Machine Operator (Custom)",
+   "Id": null,
+   "IsCustom": true,
+   "Description": "Allows to start and stop (deallocate) Azure VMs",
+   "Actions": [
+       "Microsoft.Compute/*/read",
+       "Microsoft.Compute/virtualMachines/deallocate/action",
+       "Microsoft.Compute/virtualMachines/start/action"
+   ],
+   "NotActions": [
+   ],
+   "AssignableScopes": [
+       "/subscriptions/SUBSCRIPTION_ID"
+   ]
+}
