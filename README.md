@@ -7,7 +7,7 @@
 
 *	You can access the repositories at https://github.com/orgs/MicrosoftLearning/dashboard
 
-*	Within each repository there are lab guides the Markdown format in the Instructions folder. The lab guides in the PDF format are available from the MCT Download Center, however they are not being regularly updated. If appropriate, there are also additional files that are needed to complete the lab within the Allfiles folder. Not every course has corresponding lab files. 
+*	Within each repository there are lab guides in the Markdown format in the Instructions folder. The lab guides in the PDF format are available from the MCT Download Center, however they are not being regularly updated. If appropriate, there are also additional files that are needed to complete the lab within the Allfiles\Labfiles folder. Not every course has corresponding lab files. 
 
 *	For each delivery, trainers should download the latest files from GitHub. Trainers should also check the Issues tab to see if other MCTs have reported any errors.  
 
