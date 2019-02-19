@@ -42,9 +42,9 @@ The main tasks for this exercise are as follows:
 
 1. From the lab virtual machine, start Microsoft Edge, browse to the Azure portal at [**http://portal.azure.com**](http://portal.azure.com) and sign in by using a Microsoft account that has the Owner role in the Azure subscription you intend to use in this lab.
 
-1. In the Azure portal, navigate to the **New** blade.
+1. In the Azure portal, navigate to the **Create a resource** blade.
 
-1. From the **New** blade, search Azure Marketplace for **Web app**.
+1. From the **Create a resource** blade, search Azure Marketplace for **Web app**.
 
 1. Use the list of search results to navigate to the **Web App Create** blade.
 
@@ -300,9 +300,9 @@ The main tasks for this exercise are as follows:
 
 #### Task 2: Configure Content Delivery Network (CDN) for the Azure web app
 
-1. In the Azure portal, navigate to the **New** blade.
+1. In the Azure portal, navigate to the **Create a resource** blade.
 
-1. From the **New** blade, search Azure Marketplace for **CDN**.
+1. From the **Create a resource** blade, search Azure Marketplace for **CDN**.
 
 1. Use the list of search results to navigate to the **CDN profiile** blade.
 
