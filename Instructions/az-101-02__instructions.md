@@ -5,7 +5,7 @@ Estimated Time: 45 minutes
 
 All tasks in this lab are performed from the Azure portal (including a PowerShell Cloud Shell session)
 
-   > **Note**: When not using Cloud Shell, the lab virtual machine must have Git installed [**https://git-scm.com/download/win**](https://git-scm.com/download/win)
+   > **Note**: When not using Cloud Shell, the lab virtual machine must have the Azure PowerShell 1.2.0 module (or newer) installed [https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-1.2.0](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-1.2.0)
 
 Lab files: none   
 
@@ -284,8 +284,8 @@ The main tasks for this exercise are as follows:
 1. In the Cloud Shell pane, run the following commands:
 
    ```
-   $resourceGroup = Get-AzureRmResourceGroup -Name 'az1010201-RG'
-   $webapp = Get-AzureRmWebApp -ResourceGroupName $resourceGroup.ResourceGroupName
+   $resourceGroup = Get-AzResourceGroup -Name 'az1010201-RG'
+   $webapp = Get-AzWebApp -ResourceGroupName $resourceGroup.ResourceGroupName
    while ($true) { Invoke-WebRequest -Uri $webapp.DefaultHostName }
    ```
 

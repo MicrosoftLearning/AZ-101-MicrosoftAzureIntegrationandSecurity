@@ -7,9 +7,9 @@ All tasks in this lab are performed from the Azure portal
 
 Lab files: 
 
--  **F:\\Labfiles\\AZ101\\Mod01\\az-101-01_azuredeploy.json**
+-  **Labfiles\\AZ101\\Mod01\\az-101-01_azuredeploy.json**
 
--  **F:\\Labfiles\\AZ101\\Mod01\\az-101-01_azuredeploy.parameters.json**
+-  **Labfiles\\AZ101\\Mod01\\az-101-01_azuredeploy.parameters.json**
 
 ### Scenario
   
@@ -48,7 +48,7 @@ The main tasks for this exercise are as follows:
 
 1. On the **Custom deployment** blade, select the **Build your own template in the editor**.
 
-1. From the **Edit template** blade, load the template file **F:\\Labfiles\\AZ101\\Mod01\\az-101-01_azuredeploy.json**. 
+1. From the **Edit template** blade, load the template file **Labfiles\\AZ101\\Mod01\\az-101-01_azuredeploy.json**. 
 
    > **Note**: Review the content of the template and note that it defines deployment of an Azure VM hosting Windows Server 2016 Datacenter.
 
@@ -56,7 +56,7 @@ The main tasks for this exercise are as follows:
 
 1. From the **Custom deployment** blade, navigate to the **Edit parameters** blade.
 
-1. From the **Edit parameters** blade, load the parameters file **F:\\Labfiles\\AZ101\\Mod01\\az-101-01_azuredeploy.parameters.json**. 
+1. From the **Edit parameters** blade, load the parameters file **Labfiles\\AZ101\\Mod01\\az-101-01_azuredeploy.parameters.json**. 
 
 1. Save the parameters and return to the **Custom deployment** blade. 
 
