@@ -9,14 +9,14 @@ configuration InstallHyperV
         { 
             Ensure = "Present" 
             Name = "Hyper-V"
-            IncludeAllSubFeatures = $true
+            IncludeAllSubFeature = $true
         }
 
         WindowsFeature HyperV-PowerShell
         { 
             Ensure = "Present" 
             Name = "Hyper-V-PowerShell"
-            IncludeAllSubFeatures = $true
+            IncludeAllSubFeature = $true
         }
 
         LocalConfigurationManager 
