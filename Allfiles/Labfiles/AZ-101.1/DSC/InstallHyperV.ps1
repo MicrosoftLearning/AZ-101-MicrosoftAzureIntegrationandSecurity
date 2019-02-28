@@ -19,6 +19,12 @@ configuration InstallHyperV
             IncludeAllSubFeature = $true
         }
 
+        WindowsFeature HyperV-Tools
+        { 
+            Ensure = "Present" 
+            Name = "Hyper-V-Tools"
+        }
+
         LocalConfigurationManager 
         {
             ConfigurationMode = 'ApplyOnly'
