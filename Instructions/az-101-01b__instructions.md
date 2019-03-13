@@ -121,7 +121,7 @@ The main tasks for this exercise are as follows:
 
 1. In the Azure portal, navigate to the blade of the **az1010101b-vm1** Azure VM. 
 
-1. From the **Overview** pane of the **az1000401-vm2** blade, generate an RDP file and use it to connect to **az1010101b-vm1**.
+1. From the **Overview** pane of the **az1010101b-vm1** blade, generate an RDP file and use it to connect to **az1010101b-vm1**.
 
 1. When prompted, authenticate by specifying the following credentials:
 
