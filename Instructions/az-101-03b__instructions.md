@@ -77,7 +77,7 @@ The main tasks for this exercise are as follows:
 
     - Resource group: the name of a new resource group **az1010301b-RG**
 
-    - Location: the name of the Azure region which is closest to the lab location and where you can provision Azure VMs
+    - Location: the name of the Azure region which is closest to the lab location and where you can provision Azure VMs and Azure SQL Database
 
     - Vm Size: **Standard_DS1_v2**
 
