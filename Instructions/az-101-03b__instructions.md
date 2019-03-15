@@ -99,8 +99,18 @@ The main tasks for this exercise are as follows:
 
     - Sku Tier: **Basic**
 
-   > **Note**: To identify Azure regions where you can provision Azure VMs, refer to [**https://azure.microsoft.com/en-us/regions/offers/**](https://azure.microsoft.com/en-us/regions/offers/)
+   > **Note**: To identify VM sizes available in your subscription in a given region, run the following from Cloud Shell and review the values in the **Restriction** column (where `<location>` represents the target Azure region):
+   
+   ```
+   Get-AzComputeResourceSku | where {$_.Locations -icontains "<location>"} | Where-Object {($_.ResourceType -ilike "virtualMachines")}
+   ```
+   
+   > **Note**: To identify whether you can provision Azure SQL Database in a given region, run the following from Cloud Shell and ensure that the resulting **Status** is set to **Available** (where `<location>` represents the target Azure region):
 
+   ```
+   Get-AzSqlCapability -LocationName <location>
+   ```
+   
    > **Note**: Do not wait for the deployment to complete but proceed to the next step. 
 
 1. In the Azure portal, navigate to the **New** blade.
