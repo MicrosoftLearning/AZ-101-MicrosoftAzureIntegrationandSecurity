@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "vmSize": {
-            "value": "Standard_DS1_v2"
+            "value": "Standard_B2ms"
         },
         "adminUsername": {
-            "value": "Student"
+            "value": "Skopo"
         },
         "adminPassword": {
             "value": "Pa55w.rd1234"
